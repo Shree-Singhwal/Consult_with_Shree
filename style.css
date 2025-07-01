@@ -1,0 +1,356 @@
+
+     .hero {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  filter: brightness(60%);
+  display:block;
+  border-radius: 15px;
+
+}
+
+.hero-header {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-size-adjust: 20;
+  color: white;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15px 30px;
+  z-index: 2;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.box-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  border: 5px solid #ddd;
+  padding: 20px 20px 40px; 
+  box-shadow : 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+.box img.hover-img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+
+.box::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.box:hover img.hover-img,
+.box:hover::after {
+  opacity: 1;
+}
+
+
+.box h1,
+.box p,
+.box a {
+  position: relative;
+  z-index: 2;
+  color: #000;
+}
+
+
+.box a {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: #d49c22;
+  font-weight: bold;
+  z-index: 2;
+  
+}
+.box:hover h1,
+.box:hover p,
+.box:hover a {
+  color: white;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+  background: #f9f9f9;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-img img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #e6a902;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+.contact-btn:hover {
+  background: #005bb5;
+  transform: scale(1.25);
+}
+.contact-btn:active {
+  background: #003f87;
+  color: #ffd700; 
+  transform: scale(0.95);
+}
+.about-box h1 {
+  font-size: 3rem;
+  color:rgb(248, 0, 0)
+}
+.about-box p{
+  font-size: 1.5rem;
+  color:#ff7c01;
+
+}
+.about-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(2, 0, 0, 0.1);
+  max-width: 500px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0, 115, 230, 0.3); 
+}
+#contact {
+  background-image: url('contact.avif');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #005bb5;
+  transform: scale(1.05);
+}
+
+.contact-form button:active {
+  background: #003f87;
+  color: #ffd700;
+  transform: scale(0.95);
+}
+.contact-form {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+   position: relative;
+  z-index: 2;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover,
+.contact-form select:hover {
+  border-color: #89ee04;
+  box-shadow: 0 0 10px rgba(0,115,230,0.3);
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.contact-form button {
+  background: #0073e6;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #b500b5;
+  transform: scale(1.05);
+}
+#contact h2 {
+  font-size: 60px; 
+  font-weight: bold;
+  text-align: center;
+  color: #fafafa;
+}
+#contact p{
+  color:#ddd;
+  font-size: 20px;
+}
+
+/* === Testimonials Section === */
+#testimonials {
+  background-color: #f8f8f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 350px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.testimonial h4 {
+  font-weight: bold;
+  color: #0073e6;
+}
