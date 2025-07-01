@@ -1,75 +1,75 @@
-# Consult_with_Shree 🌐
+# 🌐 Consult_with_Shree
 
-Welcome to my personal website project — **Consult With Shree**.  
-This site is designed to represent me, Shree Singhwal, as a digital business consultant and showcases the services I offer to clients looking for modern digital solutions.
+**Consult With Shree** is a fully static personal website designed and developed by me — **Shree Singhwal** — to represent my digital consulting identity online.
 
----
-
-## 🔥 Project Overview
-
-This project is a static, responsive website built using **HTML** and **CSS** only — no frameworks or JavaScript.  
-It includes multiple professional sections to give a complete and functional feel like a real consulting site.
+This project was created using only **HTML and CSS** in **Visual Studio Code (VS Code)**, without any frameworks, and completed in a single day as a personal challenge.
 
 ---
 
-## 🧩 What’s Inside
+## 🧑‍💻 About Me
 
-- 🎯 **Hero Section** — Includes name, title, and a bold welcome with background image
-- 🙋‍♀️ **About Me Section** — A brief introduction to who I am and what I do
-- 🛠️ **Services Section** — Highlighting 4 core offerings:
-  - Website Development
-  - Graphic Designing
-  - Digital Marketing
-  - Application Development
-- 💬 **Testimonials** — Displays positive feedback (dummy data used)
-- 📞 **Contact Section** — A full-featured contact form including:
-  - Name, email, phone, and company info
-  - Service interest and budget range
-  - File upload and terms agreement checkbox
+I'm a **Computer Science Engineering (CSE) student** passionate about web development and design.  
+I built this project to apply my skills practically and create a professional-looking online presence.  
+I learned everything from online platforms like **W3Schools** and applied those concepts here.
 
 ---
 
-## 💻 Tech Stack
+## 💡 What I Learned
+
+- Structuring multi-section web pages with clean HTML
+- Styling using **CSS shadows, hover effects, and transitions**
+- Organizing content visually using flexbox
+- Designing a detailed contact form with various fields
+
+---
+
+## 🧩 Website Sections
+
+- 🎯 **Hero Section** — Name, title, and strong CTA on background image
+- 🙋‍♀️ **About Me** — My professional intro with a contact button
+- 🛠️ **Services** — 4 core offerings (Web, Graphics, Marketing, Apps)
+- 💬 **Testimonials** — Displaying client-like feedback
+- 📞 **Contact** — Full-featured form with file upload and preferences
+
+---
+
+## 📁 Technologies Used
 
 - HTML5  
 - CSS3  
-- No JavaScript, No frameworks
+- Designed and developed in **VS Code**
 
 ---
 
 ## 🚀 Live Site
 
-Once hosted via GitHub Pages, the link will be:  
-🔗 `https://shree-singhwal.github.io/Consult_with_Shree`
+(Once deployed via GitHub Pages, the link will be shared here)
 
 ---
 
-## 📸 Screenshots
+## 🧪 Challenges Faced
 
-Screenshots are added by the name ss1, ss2, ss3, e.t.c
-
----
-
-## 🗒️ Future Plans
-
-- Integrate the form with Google Sheets or Firebase  
-- Add animations using JavaScript  
-- Make dark/light theme toggle
+- I challenged myself to build the entire website **in a single day** — and succeeded!
+- Designing smooth hover effects and layered image boxes was a fun learning experience.
 
 ---
 
-## 🙋‍♀️ About Me
+## 📱 Responsiveness
 
-Hi! I'm **Shree Singhwal**, a passionate digital consultant helping businesses grow online through design, marketing, and smart strategies.
-
----
-
-## 📬 Contact
-
-- 📧 Email: shreesinghwal@gmail.com  
-- 📱 Phone: +91-7017527779  
+Basic responsiveness is included through flexible layouts, but full testing will be done after hosting the site live.
 
 ---
 
-Thanks for checking out my project! ❤️  
-Feel free to fork it, explore it, or give feedback.
+## 🔮 Future Plans
+
+While I don’t have updates planned for this site yet, I’m planning my next project where I’ll explore using **frameworks like Bootstrap or Tailwind CSS**, and possibly backend integration too.
+
+---
+
+## 📬 Contact Me
+
+📧 Email: shreesinghwal@gmail.com  
+
+---
+
+Thanks for visiting this project! Feel free to explore, fork, or give feedback.  
