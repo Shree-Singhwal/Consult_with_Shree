@@ -46,7 +46,7 @@ Once hosted via GitHub Pages, the link will be:
 
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+Screenshots are added by the name ss1, ss2, ss3, e.t.c
 
 ---
 
